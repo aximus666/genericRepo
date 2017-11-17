@@ -1,0 +1,51 @@
+﻿@model Practice.Web.Models.CustomerVM
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            var custHub = $.connection.CustomerHub;
+
+        })
+
+        var customerList = function () {
+            var url = "~/Home/GetList";
+            var list;
+            $.ajax({
+                url: url,
+                method: "GET",
+                success: function (res) {
+                    list = res;
+                }
+            });
+
+            return list;
+        };
+
+        var addNewCustomer = function () {
+            var url = "~/Home/AddNewCustomer";
+            var list;
+            $.ajax({
+                url: url,
+                method: "GET",
+                success: function (res) {
+                    list = res;
+                }
+            });
+
+            return res;
+        };
+    </script>
+
+}
+
+<h2>Index</h2>
+
+<div id="customers"></div>
+
+
+
+
