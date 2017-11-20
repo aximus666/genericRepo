@@ -30,7 +30,7 @@ namespace Practice.Web.Controllers
         [HttpGet]
         public JsonResult AddNewCustomer()
         {
-            customers.Add(new CustomerVM { Name = "Client Customer", Surname = "Clientt" });
+            customers.Add(new CustomerVM { Name = "Client Customer", Surname = "Clienttt" });
             return Json(customers, JsonRequestBehavior.AllowGet);
         }
     }
