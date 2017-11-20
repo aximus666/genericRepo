@@ -2,6 +2,7 @@
 using Microsoft.Owin;
 using Practice.Web;
 
+
 [assembly: OwinStartup(typeof(Startup))]
 namespace Practice.Web
 {
@@ -11,7 +12,11 @@ namespace Practice.Web
         {
             // Any connection or hub wire up and configuration should go here
             app.MapSignalR();
-            
+
+    
+
         }
+
+    
     }
 }

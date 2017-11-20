@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.ConsoleApp", "Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Web", "Practice.Web\Practice.Web.csproj", "{627ACFA5-88E7-4603-ABB5-C4A7804743CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.Api", "Practice.Api\Practice.Api.csproj", "{0550B441-A50C-4A16-89BF-F0F2F1316EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{627ACFA5-88E7-4603-ABB5-C4A7804743CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{627ACFA5-88E7-4603-ABB5-C4A7804743CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{627ACFA5-88E7-4603-ABB5-C4A7804743CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0550B441-A50C-4A16-89BF-F0F2F1316EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0550B441-A50C-4A16-89BF-F0F2F1316EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0550B441-A50C-4A16-89BF-F0F2F1316EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0550B441-A50C-4A16-89BF-F0F2F1316EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
